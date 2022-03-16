@@ -22,16 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CPApplicationDelegate, CP
         
         interfaceController.setRootTemplate(CPMapTemplate(), animated: true)
         
-        let controller = UIViewController()
-        controller.view.frame = window.bounds
-        controller.view.backgroundColor = UIColor.darkGray
-        let label = UILabel(frame: controller.view.frame)
-        label.text = "CarPlay Unleashed"
-        label.font = UIFont.systemFont(ofSize: 24)
-        label.textColor = UIColor.systemYellow
-        label.textAlignment = .center
-        controller.view.addSubview(label)
-        window.rootViewController = controller
+        let carPlayStoryBoard = UIStoryboard(name: "CarPlay", bundle:nil)
+        window.rootViewController = carPlayStoryBoard.instantiateInitialViewController()
     }
     
     func application(_ application: UIApplication, didDisconnectCarInterfaceController interfaceController: CPInterfaceController, from window: CPWindow) {

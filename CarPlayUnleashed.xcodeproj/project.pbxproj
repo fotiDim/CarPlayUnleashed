@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF38A4F627E274A40053F57D /* CarPlay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF38A4F527E274A40053F57D /* CarPlay.storyboard */; };
+		AF38A4F827E276970053F57D /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38A4F727E276970053F57D /* CarPlayViewController.swift */; };
 		AFEC1062276E62D000AADEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC1061276E62D000AADEEC /* AppDelegate.swift */; };
 		AFEC1066276E62D000AADEEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC1065276E62D000AADEEC /* ViewController.swift */; };
 		AFEC1069276E62D000AADEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEC1067276E62D000AADEEC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF38A4F527E274A40053F57D /* CarPlay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarPlay.storyboard; sourceTree = "<group>"; };
+		AF38A4F727E276970053F57D /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
 		AFEC105E276E62D000AADEEC /* CarPlayUnleashed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayUnleashed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFEC1061276E62D000AADEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFEC1065276E62D000AADEEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 				AFEC1075276E62F000AADEEC /* CarPlayUnleashed.entitlements */,
 				AFEC1061276E62D000AADEEC /* AppDelegate.swift */,
 				AFEC1065276E62D000AADEEC /* ViewController.swift */,
+				AF38A4F727E276970053F57D /* CarPlayViewController.swift */,
 				AFEC1067276E62D000AADEEC /* Main.storyboard */,
+				AF38A4F527E274A40053F57D /* CarPlay.storyboard */,
 				AFEC106A276E62D200AADEEC /* Assets.xcassets */,
 				AFEC106C276E62D200AADEEC /* LaunchScreen.storyboard */,
 				AFEC106F276E62D200AADEEC /* Info.plist */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEC106E276E62D200AADEEC /* LaunchScreen.storyboard in Resources */,
+				AF38A4F627E274A40053F57D /* CarPlay.storyboard in Resources */,
 				AFEC106B276E62D200AADEEC /* Assets.xcassets in Resources */,
 				AFEC1069276E62D000AADEEC /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				AFEC1066276E62D000AADEEC /* ViewController.swift in Sources */,
 				AFEC1062276E62D000AADEEC /* AppDelegate.swift in Sources */,
+				AF38A4F827E276970053F57D /* CarPlayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
