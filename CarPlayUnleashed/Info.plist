@@ -8,6 +8,17 @@
 		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
 			<key>CPTemplateApplicationSceneSessionRoleApplication</key>
 			<array>
 				<dict>
@@ -17,19 +28,6 @@
 					<string>CarPlayApplicationConfiguration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(EXECUTABLE_NAME).CarPlaySceneDelegate</string>
-				</dict>
-			</array>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneClassName</key>
-					<string>UIWindowScene</string>
-					<key>UISceneConfigurationName</key>
-					<string>AppConfiguration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(EXECUTABLE_NAME).AppDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
 				</dict>
 			</array>
 		</dict>

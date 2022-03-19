@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0D6B4527E5D224006176C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D6B4427E5D224006176C5 /* SceneDelegate.swift */; };
+		AF0D6B6727E5D6A9006176C5 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D6B6627E5D6A9006176C5 /* CarPlaySceneDelegate.swift */; };
 		AF38A4F627E274A40053F57D /* CarPlay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF38A4F527E274A40053F57D /* CarPlay.storyboard */; };
 		AF38A4F827E276970053F57D /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38A4F727E276970053F57D /* CarPlayViewController.swift */; };
 		AFEC1062276E62D000AADEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC1061276E62D000AADEEC /* AppDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0D6B4427E5D224006176C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF0D6B6627E5D6A9006176C5 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
 		AF38A4F527E274A40053F57D /* CarPlay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarPlay.storyboard; sourceTree = "<group>"; };
 		AF38A4F727E276970053F57D /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
 		AFEC105E276E62D000AADEEC /* CarPlayUnleashed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayUnleashed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,8 @@
 			children = (
 				AFEC1075276E62F000AADEEC /* CarPlayUnleashed.entitlements */,
 				AFEC1061276E62D000AADEEC /* AppDelegate.swift */,
+				AF0D6B4427E5D224006176C5 /* SceneDelegate.swift */,
+				AF0D6B6627E5D6A9006176C5 /* CarPlaySceneDelegate.swift */,
 				AFEC1065276E62D000AADEEC /* ViewController.swift */,
 				AF38A4F727E276970053F57D /* CarPlayViewController.swift */,
 				AFEC1067276E62D000AADEEC /* Main.storyboard */,
@@ -147,6 +153,8 @@
 				AFEC1066276E62D000AADEEC /* ViewController.swift in Sources */,
 				AFEC1062276E62D000AADEEC /* AppDelegate.swift in Sources */,
 				AF38A4F827E276970053F57D /* CarPlayViewController.swift in Sources */,
+				AF0D6B4527E5D224006176C5 /* SceneDelegate.swift in Sources */,
+				AF0D6B6727E5D6A9006176C5 /* CarPlaySceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
